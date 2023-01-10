@@ -1,0 +1,119 @@
+button {
+  border: none;
+  background: rgb(227, 36, 36);
+  color: #fff;
+  text-transform: uppercase;
+  background: url('./images/button-bg-naa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: background .2s linear;
+}
+
+.sequencer-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the buttons within the container */
+  align-items: center; /* Center the buttons within the rows */
+}
+
+.sequencer-buttons > button {
+  width: 80px;
+  height: 50px;;
+  text-align: left;
+}
+
+.sequencer-buttons h3 {
+  position: absolute;
+  top: -20px;
+  padding: 10px;
+}
+
+
+.button-back {
+  position: center;
+  top: -76px;
+  left: -50px;
+  padding: 60px 100px;
+  background: url('./images/button-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.start {
+  background: url('./images/button-start.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.inst1 {
+
+  display: inline-block;
+  background: url('./images/button-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.inst2 {
+
+  display: inline-block;
+  background: url('./images/button-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.inst3 {
+  position: absolute;
+  display: inline-block;
+  background: url('./images/button-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.active {
+  background: url('./images/button-bg-a.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.container {
+  max-width: 390px;
+
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the buttons within the container */
+  /* Center the buttons within the rows */
+}
+
+.inner > button {
+  width: 5px;
+  height: 200px;;
+  text-align: justify;
+}
+
+body {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+
+
+
+
+
+}
